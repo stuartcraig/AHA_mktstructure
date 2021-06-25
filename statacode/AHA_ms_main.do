@@ -12,5 +12,4 @@ global  tMS		"${rootdir}/temp"
 global  oMS		"${rootdir}/output"
 adopath + ${scMS}/ado
 
-
 if "`nodata'"=="nodata" exit

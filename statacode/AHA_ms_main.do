@@ -13,3 +13,15 @@ global  oMS		"${rootdir}/output"
 adopath + ${scMS}/ado
 
 if "`nodata'"=="nodata" exit
+
+
+
+// Setting up the distance matrix
+
+
+// Caclulating HHIs
+	qui do ${scMS}/AHA_ms_hhi.do
+	
+
+// Calculating counts of hospitals
+

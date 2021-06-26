@@ -1,4 +1,5 @@
 /*------------------------------------------------------------ AHA_ms_dmatrix.do
+Creates the distance matrix used for all other analysis
 
 Stuart Craig
 */
@@ -26,3 +27,4 @@ Stuart Craig
 	di `y', _c
 	}
 
+exit

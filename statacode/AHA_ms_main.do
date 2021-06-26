@@ -40,13 +40,12 @@ Data generation
 	qui do ${scMS}/AHA_ms_dmatrix.do
 
 // Caclulating HHIs
-	qui do ${scMS}/AHA_ms_hhi.do
+	qui do ${scMS}/AHA_ms_hhis.do
 
 // Calculating counts of hospitals
 	qui do ${scMS}/AHA_ms_hcount.do
 	
-// Mergers? TBD
-
+// Mergers? 
 
 
 /*
@@ -56,6 +55,11 @@ Example summary tables/figures
 
 --------------------------------------------
 */
+
+	use ${ddMS}/AHA_ms_hhis.dta, clear
+	
+
+
 
 
 

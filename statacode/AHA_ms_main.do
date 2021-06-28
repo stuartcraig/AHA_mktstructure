@@ -63,7 +63,7 @@ Example summary tables/figures
 	tw 	line hhi35 year || ///
 		line hhi25 year || ///
 		line hhi15 year, ///
-		ylab(0(.25).75) ///
+		ylab(0.25(.15).70, format(%3.2f)) ytitle("HHI (Beds)") ///
 		legend(order(1 "35m" 2 "25m" 3 "15m") ring(0) pos(4) row(1))
 		
 		
